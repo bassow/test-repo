@@ -1,0 +1,4 @@
+backend:
+- name: test-repo
++ name: github
++ repo: bassow/test-repo
