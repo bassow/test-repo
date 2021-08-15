@@ -8,14 +8,16 @@ public_folder: /img
 
 collections: 
 - name: 'blog'
-label: 'Blog'
-folder: 'content/blog'
-create: true
-slug: 'index'
-path: '{{title}}/index'
-editor:
-  previe: false
-fields:
+  label: 'Blog'
+  folder: 'content/blog'
+  create: true
+  slug: 'index'
+  path: '{{title}}/index'
+  media_folder: ''
+  public_folder: ''
+  editor:
+    previe: false
+  fields:
     - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'Publish date', name: 'date', widget: 'datetime' }
     - { label: 'Description', name: 'description', widget: 'string' }
