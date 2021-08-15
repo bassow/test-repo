@@ -1,7 +1,7 @@
 backend:
-- name: test-repo
-+ name: github
-+ repo: bassow/test-repo
+  - name: test-repo
+  + name: github
+  + repo: bassow/test-repo
 
 media_folder: static/img
 public_folder: /img
